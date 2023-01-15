@@ -43,6 +43,12 @@ describe('Sensors test', () => {
 
   // ✅ TASK: Test that when a new event is posted to /event route, if category or temperature are not specified -> the API returns HTTP 400
   // 💡 TIP: Down below, there is an example event schema
+    test('Loo', async () => {
+    });
+  
+      test('Loo1', async () => {
+    });
+  
   test('When category is not specified, should get http 400 error', async () => {
     // Arrange
     const eventToAdd = {
