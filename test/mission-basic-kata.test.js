@@ -46,6 +46,9 @@ describe('Sensors test', () => {
     test('Loo', async () => {
     });
   
+      test('Loo1', async () => {
+    });
+  
   test('When category is not specified, should get http 400 error', async () => {
     // Arrange
     const eventToAdd = {
